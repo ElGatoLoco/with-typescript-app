@@ -10,10 +10,10 @@
   },
   "dependencies": {
     "fontfaceobserver": "^2.1.0",
-    "next": "^9.1.6",
+    "next": "^9.2.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "styled-components": "^4.4.1"
+    "styled-components": "^5.0.0"
   },
   "husky": {
     "hooks": {
@@ -22,12 +22,12 @@
   },
   "devDependencies": {
     "@types/fontfaceobserver": "^0.0.6",
-    "@types/node": "^12.12.21",
+    "@types/node": "^13.1.7",
     "@types/react": "^16.9.17",
     "@types/react-dom": "^16.9.4",
-    "@types/styled-components": "^4.4.1",
+    "@types/styled-components": "^4.4.2",
     "babel-plugin-styled-components": "^1.10.6",
-    "husky": "^3.1.0",
+    "husky": "^4.0.10",
     "prettier": "^1.19.1",
     "pretty-quick": "^2.0.1",
     "tslint": "^5.20.1",
