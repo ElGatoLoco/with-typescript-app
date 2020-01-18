@@ -1,3 +1,23 @@
+const colors = {
+  white: '#ffffff',
+  black: '#000',
+  primary: '#006C6C',
+  darkBlue: '#1E4651',
+  lightBlue: '#89C5C5',
+  extraLightBlue: '#dff3f4',
+  grey: '#B0B0B0',
+  greyBlue: '#617C7D',
+  greyDarkBlue: '#0D1E22',
+  greyLightBlue: '#838E8F',
+  tyrkys: '#43CFD4',
+  darkTyrkys: '#35B6BB',
+  green: '#35BB69',
+  lightGreen: '#33de33',
+  yellow: '#FFDA00',
+  orange: '#FF7831',
+  red: '#c71a2f',
+} as const;
+
 type Color = typeof colors[keyof typeof colors];
 type Layout = {
   backgroundColor: Color;
@@ -33,26 +53,6 @@ type Font = {
   size: FontSize;
   color: FontColor;
 };
-
-const colors = {
-  white: '#ffffff',
-  black: '#000',
-  primary: '#006C6C',
-  darkBlue: '#1E4651',
-  lightBlue: '#89C5C5',
-  extraLightBlue: '#dff3f4',
-  grey: '#B0B0B0',
-  greyBlue: '#617C7D',
-  greyDarkBlue: '#0D1E22',
-  greyLightBlue: '#838E8F',
-  tyrkys: '#43CFD4',
-  darkTyrkys: '#35B6BB',
-  green: '#35BB69',
-  lightGreen: '#33de33',
-  yellow: '#FFDA00',
-  orange: '#FF7831',
-  red: '#c71a2f',
-} as const;
 
 const layout: Layout = {
   backgroundColor: colors.primary,

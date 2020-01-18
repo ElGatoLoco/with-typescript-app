@@ -6,7 +6,7 @@ This is a simple starter that shows the usage of Next.js with TypeScript and Sty
 
 - NextJS with TypeScript
 - Styled Components with statically typed theming setup
-- Prettier and tslint with husky
+- Prettier and eslint with husky
 
 ## The idea behind the example
 
